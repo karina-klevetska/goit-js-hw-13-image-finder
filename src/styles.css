@@ -1,0 +1,9 @@
+.gallery {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.photo-card > img {
+  max-width: 300px;
+}
