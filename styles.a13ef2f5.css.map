@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,SACE,YAAa,CACb,QAAS,CACT,mCACF,CAEA,gBACE,eACF","file":"styles.a13ef2f5.css","sourceRoot":"../src","sourcesContent":[".gallery {\n  display: grid;\n  gap: 10px;\n  grid-template-columns: repeat(4, 1fr);\n}\n\n.photo-card > img {\n  max-width: 300px;\n}\n"]}
