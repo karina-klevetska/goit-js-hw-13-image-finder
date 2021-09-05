@@ -1,5 +1,3 @@
-import makeGalleryListMarkup from './index.js'
-
 export default class ImagesApiService {
     constructor() {
         this.searchQuery = '';
