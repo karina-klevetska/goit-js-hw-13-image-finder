@@ -63,6 +63,15 @@ body {
   border: 1px solid white;
 }
 
+.download {
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
 .load-more {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -76,6 +85,9 @@ body {
 }
 
 .photo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 15px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.7);
