@@ -2,7 +2,7 @@
     {{#each this}}
     <li>
         <div class="photo-card">
-            <img class="image" src={{webformatURL}} data-source={{largeImageURL}} alt="{{tags}}"/>
+            <img class="image" src={{webformatURL}} data-source={{largeImageURL}} alt="{{tags}}" title="Open full preview"/>
             <div class="stats">
                 <p class="stats-item">
                     <i class="material-icons">thumb_up</i>
@@ -21,7 +21,7 @@
                     {{downloads}}
                 </p>
             </div>
-            <a class="download" href="{{imageURL}}" target="_blank" rel="noopener noreferrer">Download</a>
+            <a class="full-img" href="{{largeImageURL}}" target="_blank" rel="noopener noreferrer">Open full in new tab</a>
         </div>
     </li>
     {{/each}}
